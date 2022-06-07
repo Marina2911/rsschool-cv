@@ -1,1 +1,43 @@
-g
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Nuosu SIL', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    background-color: aqua;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 170px;
+    line-height: 50px;
+  }
+  .nav-link {
+      color: black;
+      text-decoration: none;
+  }
+  .nav-link:hover {
+    transition: black 0.5s;
+    color: red;
+  }
+  .main__photo {
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  
