@@ -15,24 +15,42 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.section__title{
+  font-size: 70px;
+  text-align: center;
+}
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
 .header{
     background-color: aqua;
 }
-.nav-list {
+.nav__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     padding: 0 170px;
     line-height: 50px;
+    font-size: 50px;
   }
-  .nav-link {
+  .nav__link {
       color: black;
       text-decoration: none;
   }
-  .nav-link:hover {
+  .nav__link:hover {
     transition: black 0.5s;
     color: red;
+  }
+  .about__me-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about__me-text {
+    font-size: 40px;
+    padding: 100px;
   }
   .main__photo {
     width: 300px;
@@ -40,4 +58,17 @@ body {
     background-repeat: no-repeat;
     object-fit: cover;
   }
+  .skills__list {
+    font-size: 40px;
+  }
+  .code__js {
+    font-size: 80px;
+  }
+  .education__list {
+    list-style: none;
+  }
+  .contacts__list {
+    list-style: none;
+  }
+
   
