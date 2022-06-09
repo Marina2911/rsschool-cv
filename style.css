@@ -70,5 +70,40 @@ a {
   .contacts__list {
     list-style: none;
   }
+  .contacts__img{
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .languages__list {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: gray;
+  }
+  .footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__img {
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .footer__img-github {
+    width: 30px;
+    height: 30px;
+    background: black;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
 
   
